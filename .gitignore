@@ -1,3 +1,10 @@
+*db
+*srt 
+*sqlite
+*sqlite3
+youtube-scraping*
+pgvector/postgres_db_1
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

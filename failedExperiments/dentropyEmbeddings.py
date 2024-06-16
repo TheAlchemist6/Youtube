@@ -12,3 +12,8 @@ query_result = embeddings.embed_query(text)
 
 print(text)
 print(query_result)
+
+
+from langchain_chroma import Chroma
+
+db = Chroma.from_documents(documents, OpenAIEmbeddings())
