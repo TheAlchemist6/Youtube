@@ -84,7 +84,7 @@ psql postgresql://postgres:postgres@127.0.0.1:5432/postgres
 
 
 
-psql postgresql://postgres:postgres@127.0.0.1:5432/postgres
+psql postgresql://postgres:postgres@127.0.0.1:5432/youtube_transcripts
 
 ```
 
