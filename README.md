@@ -62,10 +62,36 @@ yt-dlp --skip-download --write-subs --write-auto-subs --sub-lang en --sub-format
 ```
 
 
-#### Bash
+#### yt-dlp
 
 ``` bash
 wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
 chmod +x yt-dlp
 sudo mv ty-dlp /bin/local
+```
+
+#### PGVector
+
+``` bash
+pip install psycopg2-binary
+pip install pgvector
+pip install multiformats[full]
+```
+
+``` bash
+
+psql postgresql://postgres:postgres@127.0.0.1:5432/postgres
+
+
+
+psql postgresql://postgres:postgres@127.0.0.1:5432/postgres
+
+```
+
+``` sql
+\c postgres
+DROP DATABASE youtube_transcripts;
+CREATE DATABASE youtube_transcripts;
+\c youtube_transcripts
+dt
 ```
